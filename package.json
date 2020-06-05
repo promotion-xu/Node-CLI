@@ -1,0 +1,23 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hello-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promotion-xu/Node-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/promotion-xu/Node-CLI/issues"
+  },
+  "homepage": "https://github.com/promotion-xu/Node-CLI#readme"
+}
