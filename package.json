@@ -1,6 +1,6 @@
 {
-  "name": "xuzhen",
-  "version": "1.0.0",
+  "name": "richxu.npm-cli",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -9,6 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "template",
+    "cli",
+    "vue",
+    "react"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/promotion-xu/Node-CLI.git"
@@ -22,10 +28,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^5.1.0",
-    "download-git": "^1.0.1",
     "download-git-repo": "^3.0.2",
-    "download-github-repo": "^0.1.4",
-    "github-download": "^0.5.0",
     "handlebars": "^4.7.6",
     "inquirer": "^7.1.0",
     "log-symbols": "^4.0.0",

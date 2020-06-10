@@ -24,7 +24,6 @@ const templates = {
   },
 };
 
-console.log("11111");
 program
   .command("init <template> <project>")
   .description("初始化项目模板")
