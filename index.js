@@ -13,13 +13,13 @@ program.version("1.0.0");
 
 const templates = {
   vue: {
-    url: "https://github.com/promotion-xu/tsx-component",
+    url: "https://github.com:promotion-xu/tsx-component",
     downloadUrl: "https://github.com:promotion-xu/tsx-component#master",
     description: "xuzhen脚手架测试模板a",
   },
   react: {
-    url: "https://github.com/promotion-xu/react-app",
-    downloadUrl: "https://github.com:promotion-xu/react-app/tree/master",
+    url: "https://github.com:promotion-xu/react-app",
+    downloadUrl: "https://github.com:promotion-xu/react-app#msater",
     description: "xuzhen脚手架测试模板b",
   },
 };
@@ -35,7 +35,6 @@ program
     download(downloadUrl, projectName, { clone: true }, (err) => {
       if (err) {
         spinner.fail("项目模板下载失败");
-        console.log(err);
       } else {
         spinner.succeed("项目模板下载成功");
         inquirer
